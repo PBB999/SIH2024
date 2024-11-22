@@ -48,14 +48,14 @@ export default function DashboardScreen() {
     style={styles.option}
     onPress={() => handleOptionPress('Domestic Courier')}
   >
-    <Ionicons name="paper-plane" size={40} color="#d9534f" /> {/* Updated to "send courier" icon */}
+    <Ionicons name="paper-plane" size={40} color="#d9534f" /> 
     <Text style={styles.optionText}>Send Courier</Text>
   </TouchableOpacity>
   <TouchableOpacity
     style={styles.option}
     onPress={() => handleOptionPress('International Courier')}
   >
-    <Ionicons name="mail-open" size={40} color="#d9534f" /> {/* Updated to "receive courier" icon */}
+    <Ionicons name="mail-open" size={40} color="#d9534f" /> 
     <Text style={styles.optionText}>Recieve Courier</Text>
   </TouchableOpacity>
           </View>

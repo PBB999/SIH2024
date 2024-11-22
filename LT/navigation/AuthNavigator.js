@@ -17,6 +17,8 @@ export default function AuthNavigator() {
                 name="Register"
                 component={RegisterScreen}
             />
+             <Stack.Screen name="SendPackage" component={SendPackageScreen} />
+             <Stack.Screen name="AddAddress" component={AddAddressScreen} />
         </Stack.Navigator>
     );
 }
